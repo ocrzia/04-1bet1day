@@ -36,7 +36,7 @@ randomBG()
 // START ||| Injection des datas en .json
 
 function afficherMatchs() {
-  fetch(`../scripts/datas.json`)
+  fetch(`datas.json`)
     .then(response => response.json())
     .then(data => {
       // console.log(data.matchs);
